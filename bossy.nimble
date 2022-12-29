@@ -1,6 +1,6 @@
 version     = "0.1.0"
 author      = "Ryan Oldenburg"
-description = "Command line arguments made easier"
+description = "Makes supporting command line arguments easier"
 license     = "MIT"
 
 srcDir = "src"
