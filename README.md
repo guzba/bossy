@@ -4,7 +4,7 @@
 
 ![Github Actions](https://github.com/guzba/bossy/workflows/Github%20Actions/badge.svg)
 
-[API reference](https://nimdocs.com/guzba/bossy)
+[API reference](https://guzba.github.io/bossy/)
 
 Bossy is a simple repo that makes working with command line arguments a little easier.
 
