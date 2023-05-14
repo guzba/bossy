@@ -1,0 +1,7 @@
+CommandLineArgs	bossy.html#CommandLineArgs	bossy: CommandLineArgs	
+toBase	bossy.html#toBase.c,CommandLineArgs	bossy: toBase(args: var CommandLineArgs): var seq[(string, string)]	
+toBase	bossy.html#toBase.c,CommandLineArgs_2	bossy: toBase(args: CommandLineArgs): lent seq[(string, string)]	
+`[]`	bossy.html#[],CommandLineArgs,string	bossy: `[]`(args: CommandLineArgs; key: string): string	
+contains	bossy.html#contains,CommandLineArgs,string	bossy: contains(args: CommandLineArgs; key: string): bool	
+getOrDefault	bossy.html#getOrDefault,CommandLineArgs,string,string	bossy: getOrDefault(args: CommandLineArgs; key, default: string): string	
+getCommandLineArgs	bossy.html#getCommandLineArgs	bossy: getCommandLineArgs(): CommandLineArgs	
