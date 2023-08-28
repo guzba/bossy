@@ -1,7 +1,9 @@
-CommandLineArgs	bossy.html#CommandLineArgs	bossy: CommandLineArgs	
-toBase	bossy.html#toBase.c,CommandLineArgs	bossy: toBase(args: var CommandLineArgs): var seq[(string, string)]	
-toBase	bossy.html#toBase.c,CommandLineArgs_2	bossy: toBase(args: CommandLineArgs): lent seq[(string, string)]	
-`[]`	bossy.html#[],CommandLineArgs,string	bossy: `[]`(args: CommandLineArgs; key: string): string	
-contains	bossy.html#contains,CommandLineArgs,string	bossy: contains(args: CommandLineArgs; key: string): bool	
-getOrDefault	bossy.html#getOrDefault,CommandLineArgs,string,string	bossy: getOrDefault(args: CommandLineArgs; key, default: string): string	
-getCommandLineArgs	bossy.html#getCommandLineArgs	bossy: getCommandLineArgs(): CommandLineArgs	
+nimTitle	bossy	bossy.html	module src/bossy		0
+nim	CommandLineArgs	bossy.html#CommandLineArgs	type CommandLineArgs		3
+nim	toBase	bossy.html#toBase.c,CommandLineArgs	converter toBase(args: var CommandLineArgs): var seq[(string, string)]		5
+nim	toBase	bossy.html#toBase.c,CommandLineArgs_2	converter toBase(args: CommandLineArgs): lent seq[(string, string)]		8
+nim	`[]`	bossy.html#[],CommandLineArgs,string	proc `[]`(args: CommandLineArgs; key: string): string		11
+nim	contains	bossy.html#contains,CommandLineArgs,string	proc contains(args: CommandLineArgs; key: string): bool		19
+nim	getOrDefault	bossy.html#getOrDefault,CommandLineArgs,string,string	proc getOrDefault(args: CommandLineArgs; key, default: string): string		25
+nim	getCommandLineArgs	bossy.html#getCommandLineArgs	proc getCommandLineArgs(): CommandLineArgs		34
+nimgrp	tobase	bossy.html#toBase-converters-all	converter		5
